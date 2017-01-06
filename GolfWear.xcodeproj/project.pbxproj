@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23609DC707DB15F75D156098 /* libPods-GolfWear.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FB4F9FC827A2404ED314F6 /* libPods-GolfWear.a */; };
+		940D82D11E1F4D7F00D116BA /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D82D01E1F4D7F00D116BA /* TutorialViewController.swift */; };
+		940D82D51E1F501500D116BA /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940D82D41E1F501500D116BA /* HomeStoryboard.storyboard */; };
+		940D82D71E1F520800D116BA /* IchiranStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940D82D61E1F520800D116BA /* IchiranStoryboard.storyboard */; };
+		940D82D91E1F573800D116BA /* IchiranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D82D81E1F573800D116BA /* IchiranViewController.swift */; };
+		940D82DE1E1F57C900D116BA /* IchiranView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940D82DD1E1F57C900D116BA /* IchiranView.xib */; };
+		940D82E01E1F5B9600D116BA /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D82DF1E1F5B9600D116BA /* MyCollectionViewCell.swift */; };
+		940D82E21E1F5BCA00D116BA /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940D82E11E1F5BCA00D116BA /* MyCollectionViewCell.xib */; };
+		940D82E41E1F5FBD00D116BA /* IchiranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D82E31E1F5FBD00D116BA /* IchiranView.swift */; };
 		948E02881E0FBDF800600F7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948E02871E0FBDF800600F7D /* AppDelegate.swift */; };
 		948E028A1E0FBDF800600F7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948E02891E0FBDF800600F7D /* ViewController.swift */; };
 		948E028D1E0FBDF800600F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948E028B1E0FBDF800600F7D /* Main.storyboard */; };
@@ -15,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CD084C6D88417AC9AFECD83 /* Pods-GolfWear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfWear.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GolfWear/Pods-GolfWear.debug.xcconfig"; sourceTree = "<group>"; };
+		374DD929A788F6B6FB6144D4 /* Pods-GolfWear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfWear.release.xcconfig"; path = "Pods/Target Support Files/Pods-GolfWear/Pods-GolfWear.release.xcconfig"; sourceTree = "<group>"; };
+		940D82D01E1F4D7F00D116BA /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialViewController.swift; path = ../TutorialViewController.swift; sourceTree = "<group>"; };
+		940D82D41E1F501500D116BA /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		940D82D61E1F520800D116BA /* IchiranStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IchiranStoryboard.storyboard; sourceTree = "<group>"; };
+		940D82D81E1F573800D116BA /* IchiranViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IchiranViewController.swift; sourceTree = "<group>"; };
+		940D82DD1E1F57C900D116BA /* IchiranView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IchiranView.xib; sourceTree = "<group>"; };
+		940D82DF1E1F5B9600D116BA /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		940D82E11E1F5BCA00D116BA /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		940D82E31E1F5FBD00D116BA /* IchiranView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IchiranView.swift; sourceTree = "<group>"; };
 		948E02841E0FBDF800600F7D /* GolfWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948E02871E0FBDF800600F7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		948E02891E0FBDF800600F7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,8 @@
 		948E028E1E0FBDF800600F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948E02911E0FBDF800600F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948E02931E0FBDF800600F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948E02991E0FBF9A00600F7D /* GolfWear-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GolfWear-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0FB4F9FC827A2404ED314F6 /* libPods-GolfWear.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GolfWear.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23609DC707DB15F75D156098 /* libPods-GolfWear.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C08FF887AD2788630FA90A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CD084C6D88417AC9AFECD83 /* Pods-GolfWear.debug.xcconfig */,
+				374DD929A788F6B6FB6144D4 /* Pods-GolfWear.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33F551FB1DA99FB5B93370FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0FB4F9FC827A2404ED314F6 /* libPods-GolfWear.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		940D82DA1E1F575400D116BA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				940D82D81E1F573800D116BA /* IchiranViewController.swift */,
+				940D82D01E1F4D7F00D116BA /* TutorialViewController.swift */,
+				948E02891E0FBDF800600F7D /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		940D82DB1E1F576000D116BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				940D82DD1E1F57C900D116BA /* IchiranView.xib */,
+				940D82DF1E1F5B9600D116BA /* MyCollectionViewCell.swift */,
+				940D82E11E1F5BCA00D116BA /* MyCollectionViewCell.xib */,
+				940D82E31E1F5FBD00D116BA /* IchiranView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		940D82DC1E1F576700D116BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		948E027B1E0FBDF800600F7D = {
 			isa = PBXGroup;
 			children = (
 				948E02861E0FBDF800600F7D /* GolfWear */,
 				948E02851E0FBDF800600F7D /* Products */,
+				26C08FF887AD2788630FA90A /* Pods */,
+				33F551FB1DA99FB5B93370FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +123,17 @@
 		948E02861E0FBDF800600F7D /* GolfWear */ = {
 			isa = PBXGroup;
 			children = (
+				940D82DC1E1F576700D116BA /* Model */,
+				940D82DB1E1F576000D116BA /* View */,
+				940D82DA1E1F575400D116BA /* ViewController */,
 				948E02871E0FBDF800600F7D /* AppDelegate.swift */,
-				948E02891E0FBDF800600F7D /* ViewController.swift */,
 				948E028B1E0FBDF800600F7D /* Main.storyboard */,
 				948E028E1E0FBDF800600F7D /* Assets.xcassets */,
 				948E02901E0FBDF800600F7D /* LaunchScreen.storyboard */,
 				948E02931E0FBDF800600F7D /* Info.plist */,
+				948E02991E0FBF9A00600F7D /* GolfWear-Bridging-Header.h */,
+				940D82D41E1F501500D116BA /* HomeStoryboard.storyboard */,
+				940D82D61E1F520800D116BA /* IchiranStoryboard.storyboard */,
 			);
 			path = GolfWear;
 			sourceTree = "<group>";
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 948E02961E0FBDF800600F7D /* Build configuration list for PBXNativeTarget "GolfWear" */;
 			buildPhases = (
+				ED72B148156BCC2AE43C96EF /* [CP] Check Pods Manifest.lock */,
 				948E02801E0FBDF800600F7D /* Sources */,
 				948E02811E0FBDF800600F7D /* Frameworks */,
 				948E02821E0FBDF800600F7D /* Resources */,
+				7FD72C082E3405FD08D2EDC6 /* [CP] Embed Pods Frameworks */,
+				749F1AD440A56B23939BD617 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +173,8 @@
 				TargetAttributes = {
 					948E02831E0FBDF800600F7D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DT9S8X9RA8;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -123,12 +202,64 @@
 			buildActionMask = 2147483647;
 			files = (
 				948E02921E0FBDF800600F7D /* LaunchScreen.storyboard in Resources */,
+				940D82E21E1F5BCA00D116BA /* MyCollectionViewCell.xib in Resources */,
+				940D82D71E1F520800D116BA /* IchiranStoryboard.storyboard in Resources */,
 				948E028F1E0FBDF800600F7D /* Assets.xcassets in Resources */,
+				940D82DE1E1F57C900D116BA /* IchiranView.xib in Resources */,
+				940D82D51E1F501500D116BA /* HomeStoryboard.storyboard in Resources */,
 				948E028D1E0FBDF800600F7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		749F1AD440A56B23939BD617 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GolfWear/Pods-GolfWear-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FD72C082E3405FD08D2EDC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GolfWear/Pods-GolfWear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED72B148156BCC2AE43C96EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		948E02801E0FBDF800600F7D /* Sources */ = {
@@ -136,7 +267,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				948E028A1E0FBDF800600F7D /* ViewController.swift in Sources */,
+				940D82E01E1F5B9600D116BA /* MyCollectionViewCell.swift in Sources */,
+				940D82D11E1F4D7F00D116BA /* TutorialViewController.swift in Sources */,
+				940D82E41E1F5FBD00D116BA /* IchiranView.swift in Sources */,
 				948E02881E0FBDF800600F7D /* AppDelegate.swift in Sources */,
+				940D82D91E1F573800D116BA /* IchiranViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +318,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				"DEVELOPMENT_TEAM[sdk=*]" = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -199,10 +335,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=*]" = "";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/GolfWear-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -238,32 +376,39 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/GolfWear-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		948E02971E0FBDF800600F7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD084C6D88417AC9AFECD83 /* Pods-GolfWear.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DT9S8X9RA8;
 				INFOPLIST_FILE = GolfWear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orfool.GolfWear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		948E02981E0FBDF800600F7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374DD929A788F6B6FB6144D4 /* Pods-GolfWear.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DT9S8X9RA8;
 				INFOPLIST_FILE = GolfWear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.orfool.GolfWear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +431,7 @@
 				948E02981E0FBDF800600F7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
