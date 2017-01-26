@@ -53,18 +53,7 @@
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial_page_1" translatesAutoresizingMaskIntoConstraints="NO" id="fBG-y4-FTS">
-                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                                </imageView>
-                                            </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstItem="fBG-y4-FTS" firstAttribute="top" secondItem="2AN-jb-0Te" secondAttribute="top" id="Gtk-73-jvY"/>
-                                            <constraint firstAttribute="bottom" secondItem="fBG-y4-FTS" secondAttribute="bottom" id="PQv-rf-2fP"/>
-                                            <constraint firstAttribute="trailing" secondItem="fBG-y4-FTS" secondAttribute="trailing" id="StR-r8-D7h"/>
-                                            <constraint firstItem="fBG-y4-FTS" firstAttribute="leading" secondItem="2AN-jb-0Te" secondAttribute="leading" id="fL5-5l-S9O"/>
-                                        </constraints>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -89,7 +78,4 @@
             <point key="canvasLocation" x="100" y="188"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="tutorial_page_1" width="665" height="1182"/>
-    </resources>
 </document>

@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        NCMB.setApplicationKey("b695aa75ddf859c8d3794493dd2d02e608f7b601c16b651bb658deb822430552", clientKey: "bbb61c2904898803bf6961132a00afeebbb633a52c1c83146de75276379cccc1")
+        NCMB.setApplicationKey("11f747772a60e00cb3ab4f12286bd1a7a0fbb703cfe808f7198a3d319618ebbc", clientKey: "679d93aadf33c71e996098bdc00a67c623dbbd27cd280987c4cd30ebb1a696c8")
         
         return true
     }

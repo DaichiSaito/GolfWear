@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, MDCSwipeToChooseDelegate {
+class ViewController: UIViewController, MDCSwipeToChooseDelegate, UINavigationControllerDelegate{
     dynamic var imageInfo = [] as NSArray
     fileprivate var frontCardView: MDCSwipeToChooseView?
     fileprivate var backCardView: MDCSwipeToChooseView?
@@ -18,6 +18,22 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
     @IBInspectable var topMargin: CGFloat = 50.0
     @IBInspectable var backViewBottomValue: CGFloat = 10.0
     @IBInspectable var ratio: CGFloat = 1.25
+    
+    
+    
+    func clickSearchButton(){
+        //searchButtonを押した際の処理を記述
+//        let controller = self.storyboard!.instantiateViewController( withIdentifier: "SearchConditionViewController" ) as! SearchConditionViewController
+        let controller = self.storyboard!.instantiateViewController( withIdentifier: "SearchViewController" ) as! SearchViewController
+        self.navigationController?.pushViewController(controller, animated: true)
+//        self.present(controller, animated: true, completion: nil)
+        
+        
+    }
+    
+    func clickRefreshButton(){
+        //refreshButtonを押した際の処理を記述
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +41,14 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
         self.loadImageData()
 //        setupView()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // ボタン作成
+        // barButtonSystemItemを変更すればいろいろなアイコンに変更できます
+        let searchButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.search, target: self, action: #selector(ViewController.clickSearchButton))
+//        let refreshButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.refresh, target: self, action: #selector(ViewController.clickRefreshButton))
+        
+        //ナビゲーションバーの右側にボタン付与
+        self.navigationItem.setLeftBarButtonItems([searchButton], animated: true)
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
@@ -159,7 +183,7 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
          *
          */
         var query: NCMBQuery?
-        query = NCMBQuery(className: "image")
+        query = NCMBQuery(className: "WEARIMAGE")
         query!.findObjectsInBackground({(objects, error) in
             
             if error == nil {
@@ -172,7 +196,7 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
                     //                    self.collectionView!.reloadData()
                 } else {
                     print("[]を入れる必要がある？")
-                    self.imageInfo = []
+//                    self.imageInfo = []
                 }
                 
             } else {
