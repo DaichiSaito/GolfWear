@@ -1,24 +1,24 @@
 //
-//  IchiranViewController.swift
+//  ToukouIchiranViewController.swift
 //  GolfWear
 //
-//  Created by DaichiSaito on 2017/01/06.
+//  Created by DaichiSaito on 2017/01/08.
 //  Copyright © 2017年 DaichiSaito. All rights reserved.
 //
 
 import UIKit
 
-class IchiranViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    
+class ToukouIchiranViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+
     @IBOutlet weak var collectionView: UICollectionView!
     dynamic var imageInfo = [] as NSArray
-
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-//        let ichiranView = self.view as! IchiranView
+        //        let ichiranView = self.view as! IchiranView
         // デリゲート設定
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -26,13 +26,12 @@ class IchiranViewController: UIViewController, UICollectionViewDelegate, UIColle
         self.addObserver(self, forKeyPath: "imageInfo", options: [.new, .old], context: nil)
         self.loadImageData()
     }
-    
     deinit {
         //        let notificationCenter = NSNotificationCenter.defaultCenter()
         //        notificationCenter.removeObserver(self, name: "com.hogehoge.someNotification", object: nil)
         self.removeObserver(self, forKeyPath: "imageInfo")
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -45,16 +44,16 @@ class IchiranViewController: UIViewController, UICollectionViewDelegate, UIColle
         }
     }
     
-
+    
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         // 2カラム
@@ -62,9 +61,9 @@ class IchiranViewController: UIViewController, UICollectionViewDelegate, UIColle
         let height: CGFloat = width
         
         return CGSize(width: width, height: height) // The size of one cell
-
+        
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         print("collectionViewの設定開始")
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath as IndexPath) as! MyCollectionViewCell
@@ -87,7 +86,7 @@ class IchiranViewController: UIViewController, UICollectionViewDelegate, UIColle
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.imageInfo.count
     }
-
+    
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
